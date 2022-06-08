@@ -42,6 +42,32 @@ class CoinCard extends StatelessWidget {
                 spreadRadius: 1,
               ),
             ]),
+        child: Row(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(20),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey,
+                      offset: Offset(4, 4),
+                      blurRadius: 10,
+                      spreadRadius: 1,
+                    ),
+                    BoxShadow(
+                      color: Colors.white,
+                      offset: Offset(-4, -4),
+                      blurRadius: 10,
+                      spreadRadius: 1,
+                    )
+                  ]),
+              height: 60,
+              width: 60,
+              child: Image.network(imgUrl),
+            ),
+          ],
+        ),
       ),
     );
   }
