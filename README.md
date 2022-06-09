@@ -1,6 +1,6 @@
 # Crypto_fetch
 
-A new Flutter project.
+This project fetches the live crypto currency status using the APIs
 
 ### To run this app onto your local machine)
 
